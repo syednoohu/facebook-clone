@@ -6,16 +6,18 @@
 }
 
 .header {
-  position: fixed;
+  position: sticky;
+  top: 0;
   width: 100vw;
   height: 56px;
   padding: 5px 10px 0px 10px;
   justify-content: space-between;
   box-sizing: border-box;
   box-shadow: 0px 5px 8px -9px black;
+  background-color: var(--white);
 }
 
-.flex {
+.flex.center {
   display: flex;
   align-items: center;
 }
@@ -55,7 +57,7 @@
 .header__middle--opt {
   height: 100%;
   cursor: pointer;
-  padding: 0px 40px;
+  padding: 0px 43px;
   align-items: center;
 }
 

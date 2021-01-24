@@ -21,40 +21,40 @@ import photo from './syed.jpg';
 
 function Header() {
   return (
-    <div className='header flex h'> 
+    <div className='header flex center h'> 
       
       {/* Header Left */}
-      <div className='header__left flex g '> 
+      <div className='header__left flex center g '> 
         <img src={logo} alt=""/>
-        <div className="header__left--input flex">
+        <div className="header__left--input flex center">
           <SearchIcon/>
           <input type="text" placeholder="Search Facebook"/>
         </div>
       </div>
  
       {/* Header Middle */}
-      <div className='header__middle flex g'> 
+      <div className='header__middle flex center g'> 
 
           <div className="header__middle--opt  ">
             <Home id="icon"/>
           </div>
-          <div className="header__middle--opt active flex  ">
+          <div className="header__middle--opt active flex center ">
             <PlayArrowOutlinedIcon id="icon"/>
           </div>
-          <div className="header__middle--opt flex">
+          <div className="header__middle--opt flex center">
             <ShoppingCartOutlinedIcon id="icon"/>
           </div>
-          <div className="header__middle--opt flex ">
+          <div className="header__middle--opt flex center">
             <GroupOutlinedIcon id="icon"/>
           </div>
-          <div className="header__middle--opt flex ">
+          <div className="header__middle--opt flex center">
             <SportsEsportsOutlinedIcon id="icon"/>
           </div>
       </div>
 
       {/* Header right */}
-      <div className='header__right flex g'> 
-        <div className='header__right--image flex g '> 
+      <div className='header__right flex center g'> 
+        <div className='header__right--image flex center g '> 
           <Avatar id = "icon" src={photo} alt=""/>
           <p >
             Syed
@@ -66,17 +66,12 @@ function Header() {
         <IconButton>
           <MessageIcon/>
         </IconButton>
-
         <IconButton>
-        <NotificationsIcon/>
+          <NotificationsIcon/>
         </IconButton>
         <IconButton>
-        <ArrowDropDownOutlinedIcon/>
+          <ArrowDropDownOutlinedIcon/>
         </IconButton>
-
-
-
-
       </div>
 
     </div>
