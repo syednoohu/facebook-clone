@@ -35,10 +35,10 @@ function Header() {
       {/* Header Middle */}
       <div className='header__middle flex g'> 
 
-          <div className="header__middle--opt active ">
+          <div className="header__middle--opt  ">
             <Home id="icon"/>
           </div>
-          <div className="header__middle--opt flex  ">
+          <div className="header__middle--opt active flex  ">
             <PlayArrowOutlinedIcon id="icon"/>
           </div>
           <div className="header__middle--opt flex">
