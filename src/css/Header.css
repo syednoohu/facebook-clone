@@ -1,0 +1,83 @@
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+  --inputWhite: #f0f2f5;
+  --hoverBgWhite: #f0f2f5;
+}
+
+.header {
+  border: 2px red solid;
+  position: fixed;
+  width: 100vw;
+  height: 56px;
+  padding: 0.5rem 1rem;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+.header__left {
+}
+
+.header__left img {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+.header__left--input {
+  padding: 10px;
+  height: 40px;
+  background-color: var(--inputWhite);
+  border-radius: 999px;
+  flex: 0.25;
+}
+
+.header__left--input input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  margin-left: 10px;
+}
+
+.header__middle {
+  height: 40px;
+  justify-content: center;
+  flex: 1;
+}
+
+.header__middle--opt {
+  padding: 7px 40px;
+  /* border-radius: 5px; */
+  /* border: 1px red solid; */
+  /* border: none; */
+}
+
+.header__middle #icon {
+  color: grey;
+  font-size: 30px;
+}
+
+.header__middle--opt:hover {
+  background-color: var(--hoverBgWhite);
+  border-radius: 5px;
+
+  border-bottom: none;
+}
+.header__middle--opt.active {
+  /* if active icon color:blue  */
+  border-bottom: 3px var(--blue) solid;
+  border-radius: none;
+}
+
+.header__right {
+  height: 40px;
+
+  flex: 0.25;
+}
+
+.l {
+  border: 1px green solid;
+}
