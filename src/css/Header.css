@@ -1,17 +1,18 @@
 :root {
-  --blue: #1e90ff;
+  --blue: #1877f2;
   --white: #ffffff;
   --inputWhite: #f0f2f5;
   --hoverBgWhite: #f0f2f5;
 }
 
 .header {
-  border: 2px red solid;
   position: fixed;
   width: 100vw;
   height: 56px;
-  padding: 0.5rem 1rem;
+  padding: 5px 10px;
   justify-content: space-between;
+  box-sizing: border-box;
+  box-shadow: 0px 5px 8px -9px black;
 }
 
 .flex {
@@ -19,9 +20,10 @@
   align-items: center;
 }
 .header__left {
+  height: 100%;
 }
 
-.header__left img {
+.header__left > img {
   height: 40px;
   width: 40px;
   margin-right: 10px;
@@ -35,7 +37,7 @@
   flex: 0.25;
 }
 
-.header__left--input input {
+.header__left--input > input {
   border: none;
   background-color: transparent;
   outline: none;
@@ -43,41 +45,74 @@
 }
 
 .header__middle {
-  height: 40px;
+  padding: 0px 10px;
+  height: 100%;
   justify-content: center;
   flex: 1;
 }
 
 .header__middle--opt {
-  padding: 7px 40px;
-  /* border-radius: 5px; */
-  /* border: 1px red solid; */
-  /* border: none; */
+  height: 100%;
+  cursor: pointer;
+  padding: 0px 40px;
+  align-items: center;
 }
 
 .header__middle #icon {
   color: grey;
-  font-size: 30px;
+  font-size: 35px;
 }
 
-.header__middle--opt:hover {
-  background-color: var(--hoverBgWhite);
-  border-radius: 5px;
-
-  border-bottom: none;
-}
 .header__middle--opt.active {
-  /* if active icon color:blue  */
   border-bottom: 3px var(--blue) solid;
+}
+.header__middle--opt.active > #icon {
+  color: var(--blue);
+}
+
+.header__middle--opt:hover:not(.active) {
+  background-color: var(--hoverBgWhite);
+  border-radius: 10px;
+  /* align-items: center;
+  padding: 0 30px;
+  border-bottom: none; */
+}
+
+.header__middle--opt:hover > #icon {
+  color: var(--blue);
+}
+
+/* if .header__middle--opt.active then bg-color : transparent */
+.header__middle--opt.active {
+  background-color: transparent;
   border-radius: none;
 }
 
+/* HEADER-RIGHT */
 .header__right {
-  height: 40px;
-
+  height: 100%;
   flex: 0.25;
 }
 
-.l {
-  border: 1px green solid;
+.header__right #icon {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.header__right--image {
+  margin-right: 10px;
+}
+
+.header__right p {
+  margin-left: 3px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.h1 {
+  border: 1px red solid;
+}
+
+.g1 {
+  border: 2px green solid;
 }
