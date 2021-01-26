@@ -1,6 +1,14 @@
-.sidebar {
-  flex: 0.3;
-  height: 100%;
+:root {
+  --blue: #1877f2;
+  --white: #ffffff;
+  --inputWhite: #f0f2f5;
+  --hoverBgWhite: #f0f2f5;
+}
 
+.sidebar {
+  flex: 0.35;
+  height: 100%;
+  padding: 15px 10px;
   border: 1px green solid;
+  background-color: var(--inputWhite);
 }

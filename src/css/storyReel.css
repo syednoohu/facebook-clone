@@ -1,0 +1,36 @@
+:root {
+  --blue: #1877f2;
+  --white: #ffffff;
+  --inputWhite: #f0f2f5;
+  --hoverBgWhite: #f0f2f5;
+  --hoverBgWhite2: #e7eaef;
+}
+
+.storyReel {
+  /* border: 1px blue solid; */
+  width: 100%;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.flex.center {
+  display: flex;
+  align-items: center;
+}
+
+.storyReel .MuiSvgIcon-root {
+  color: var(--blue);
+  border: 2px soild red;
+}
+
+.storyReel > #id {
+  border: 2px soild red;
+}
+
+.storyReel > .MuiButtonBase-root {
+  margin-left: -20px !important;
+  border: var(--hoverBgWhite2) 1px solid !important;
+  background-color: var(--white) !important;
+  color: var(--hoverBgWhite2) !important;
+}

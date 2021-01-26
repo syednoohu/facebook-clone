@@ -1,5 +1,5 @@
 import React from 'react';
-import "../css/Header.css" 
+import "../css/header.css" 
 import SearchIcon from '@material-ui/icons/Search';
 import Home from '@material-ui/icons/Home';
 import PlayArrowOutlinedIcon from '@material-ui/icons/PlayArrowOutlined';
@@ -35,7 +35,7 @@ function Header() {
       {/* Header Middle */}
       <div className='header__middle flex center g'> 
 
-          <div className="header__middle--opt  ">
+          <div className="header__middle--opt flex center ">
             <Home id="icon"/>
           </div>
           <div className="header__middle--opt active flex center ">

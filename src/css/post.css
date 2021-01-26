@@ -6,14 +6,9 @@
   --hoverBgWhite2: #e7eaef;
 }
 
-.feed {
-  overflow: hidden;
-  flex: 1;
-  flex-direction: column;
-  height: fit-content;
-  max-width: 800px;
-  padding: 15px 0;
-  border: 5px red solid;
+.post {
+  border: 1px red solid;
+  width: 100%;
 }
 
 .flex.center {

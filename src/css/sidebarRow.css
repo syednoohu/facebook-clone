@@ -1,0 +1,38 @@
+:root {
+  --blue: #1877f2;
+  --white: #ffffff;
+  --inputWhite: #f0f2f5;
+  --hoverBgWhite: #f0f2f5;
+  --hoverBgWhite2: #e7eaef;
+}
+
+.sidebarRow {
+  flex: 0.4;
+  padding: 0 10px;
+  height: 52px;
+  width: 360;
+  /* border: 1px green solid; */
+  background-color: var(--inputWhite);
+}
+
+.sidebarRow > #icon {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  color: var(--blue);
+}
+
+.sidebarRow > p {
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.sidebarRow:hover {
+  background-color: var(--hoverBgWhite2);
+  border-radius: 10px;
+}
+.flex.center {
+  display: flex;
+  align-items: center;
+}
