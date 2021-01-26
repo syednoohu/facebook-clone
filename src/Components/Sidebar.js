@@ -25,6 +25,7 @@ function Sidebar() {
 
       <SidebarRow Icon = {ExpandMoreIcon} title ="More"/>
       <SidebarRow Icon = {ExpandLessIcon} title ="Less"/>
+     
 
     </div>
   )

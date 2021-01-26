@@ -11,6 +11,7 @@
 }
 
 .app {
+  background-color: var(--inputWhite);
 }
 .flex.app {
   display: flex;
@@ -18,8 +19,7 @@
   justify-content: space-between;
 }
 .app__body {
-  background-color: var(--inputWhite);
-  height: 100vh;
+  height: auto;
   width: 100%;
 }
 

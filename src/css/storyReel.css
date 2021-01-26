@@ -7,10 +7,13 @@
 }
 
 .storyReel {
+  position: relative;
   /* border: 1px blue solid; */
-  width: 100%;
+  /* width: auto; */
+  width: 600px;
+  max-width: 595px;
   justify-content: center;
-  overflow: hidden;
+  overflow: visible;
   position: relative;
 }
 
@@ -29,8 +32,13 @@
 }
 
 .storyReel > .MuiButtonBase-root {
-  margin-left: -20px !important;
+  position: absolute;
+  right: -20px !important;
   border: var(--hoverBgWhite2) 1px solid !important;
   background-color: var(--white) !important;
   color: var(--hoverBgWhite2) !important;
 }
+
+/* .div:first-child {
+  margin-left: 0;
+} */

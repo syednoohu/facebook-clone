@@ -11,4 +11,5 @@
   padding: 15px 10px;
   border: 1px green solid;
   background-color: var(--inputWhite);
+  overflow-y: scroll;
 }

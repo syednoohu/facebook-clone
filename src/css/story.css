@@ -8,7 +8,7 @@
 
 .story {
   position: relative;
-  width: 120px;
+  width: 115px;
   height: 200px;
   border-radius: 5px;
   margin-left: 10px;
@@ -50,4 +50,8 @@
   top: 20px;
   left: 20px;
   border: 4px var(--blue) solid;
+}
+
+.story:first-child {
+  margin-left: 0;
 }
