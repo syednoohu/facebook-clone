@@ -9,18 +9,17 @@ import ShareOutlinedIcon from '@material-ui/icons/ShareOutlined';
 
 import SidebarRow from "./SidebarRow";
 
-import photo from './syed.jpg';
-import post1 from './post-1.jpg'
+
 
 import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
 
 import "../css/post.css" ;
-function Post() {
+function Post({image}) {
   return (
     <div  className="post flex center g">
       {/* Top */}
       <div className="post__top flex center r">
-        <Avatar id = "icon" src={photo} alt=""/>
+        <Avatar id = "icon" src={image} alt=""/>
         <div className="post__top--info">
           <h4>Name</h4> 
           <p>timeStamp</p>
@@ -40,7 +39,7 @@ function Post() {
     
       {/* Image */}
       <div className="post__image r">
-        <img src={post1} alt=""/>
+        <img src={image} alt=""/>
       </div>
     
       {/* Bottom */}
