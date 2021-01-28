@@ -58,7 +58,8 @@
 
 .post__bottom {
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  /* padding: 12px 16px 0px 16px; */
 }
 
 .post__bottom--right p {
@@ -66,8 +67,14 @@
   margin-left: 10px;
 }
 .post__bottom--top {
-  width: 100%;
   justify-content: space-between;
+  margin: 0 16px;
+  padding: 10px 0;
+  border-bottom: 1px solid grey;
+}
+
+.post__bottom--bottom {
+  /* justify-content: space-between; */
   margin: 0 16px;
   padding: 10px 0;
 }
@@ -80,5 +87,9 @@
 }
 
 .g1 {
+  border: green 2px solid;
+}
+
+.b1 {
   border: blue 2px solid;
 }

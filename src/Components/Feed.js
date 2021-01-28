@@ -9,6 +9,12 @@ function Feed() {
       <StoryReel/>
       <MessageSender/>
       <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
+
     </div>
   )
 }

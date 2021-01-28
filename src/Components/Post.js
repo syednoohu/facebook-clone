@@ -4,8 +4,10 @@ import ThumbUpAltOutlinedIcon from '@material-ui/icons/ThumbUpAltOutlined';
 import FavoriteBorderOutlinedIcon from '@material-ui/icons/FavoriteBorderOutlined';
 import InsertEmoticonIcon from '@material-ui/icons/InsertEmoticon';
 import SentimentVeryDissatisfiedIcon from '@material-ui/icons/SentimentVeryDissatisfied';
+import ChatBubbleOutlineOutlinedIcon from '@material-ui/icons/ChatBubbleOutlineOutlined';
+import ShareOutlinedIcon from '@material-ui/icons/ShareOutlined';
 
-
+import SidebarRow from "./SidebarRow";
 
 import photo from './syed.jpg';
 import post1 from './post-1.jpg'
@@ -42,27 +44,30 @@ function Post() {
       </div>
     
       {/* Bottom */}
-      <div className="post__bottom flex center r">
+      <div className="post__bottom flex  r">
         <div className="post__bottom--top flex center g">
-          <div className="post__bottom--left flex center   g">
-            <ThumbUpAltOutlinedIcon/>
+        
+          <div className="post__bottom--top-left flex center   g">
+             <ThumbUpAltOutlinedIcon/>
             <FavoriteBorderOutlinedIcon />
             <InsertEmoticonIcon />
             <SentimentVeryDissatisfiedIcon/>
             <span>57</span>
           </div>
-          <div className="post__bottom--right">
-            <span>57</span> Comments
+          <div className="post__bottom--top--right  g">
+          <span>57</span> Comments
           </div>
 
         </div>
-        <div className="post__bottom--bottom g">
-          post__bottom--bottom
+        <div className="post__bottom--bottom flex center b">
+          <SidebarRow Icon = {ThumbUpAltOutlinedIcon} title ="Like" color="blue"/>
+          <SidebarRow Icon = {ChatBubbleOutlineOutlinedIcon} title ="comments"/>
+          <SidebarRow Icon = {ShareOutlinedIcon} title ="Share"/>
         </div>
       
       </div>
 
-      </div>
+    </div>
 
 
 
