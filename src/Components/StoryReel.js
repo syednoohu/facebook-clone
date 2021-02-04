@@ -4,7 +4,7 @@ import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 
 import Story from './Story'
 import "../css/storyReel.css" 
-import photo from './syed.jpg';
+import photo from '../image/syed.jpg';
 
 function StoryReel() {
   

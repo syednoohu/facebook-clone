@@ -12,10 +12,8 @@ import MessageIcon from '@material-ui/icons/Message';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import ArrowDropDownOutlinedIcon from '@material-ui/icons/ArrowDropDownOutlined';
 
-// import logo from '../css/logo.png';
-// import logo from '../..image/logo.png';
-import logo from './logo.png';
-import photo from './syed.jpg';
+import logo from '../image/logo.png';
+import photo from '../image/syed.jpg';
 
 
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Avatar, IconButton } from '@material-ui/core';
-import photo from './syed.jpg';
+import photo from '../image/syed.jpg';
 import "../css/story.css" 
 function Story({profilesrc, image, title, color}) {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import SidebarRow from "./SidebarRow";
-import photo from './syed.jpg';
+import photo from '../image/syed.jpg';
 
 import LocalHospitalIcon from '@material-ui/icons/LocalHospital';
 import WbSunnyIcon from '@material-ui/icons/WbSunny';

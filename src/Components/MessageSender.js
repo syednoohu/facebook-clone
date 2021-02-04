@@ -1,7 +1,7 @@
 import { Avatar } from '@material-ui/core'
 import React from 'react'
 import "../css/messageSender.css"
-import photo from './syed.jpg';
+import photo from '../image/syed.jpg';
 import SidebarRow from "./SidebarRow";
 import PhotoCameraIcon from '@material-ui/icons/PhotoCamera';
 import PeopleIcon from '@material-ui/icons/People';
